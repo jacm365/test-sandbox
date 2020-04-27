@@ -1,0 +1,37 @@
+.hidden {
+	display: none;
+}
+
+.checkbox {
+	width: 25px;
+	height: 25px;
+}
+
+.message {
+	position: fixed;
+	z-index: 2;
+	right: 0;
+	display: none;
+}
+
+.error {
+	background-color: #f14668;
+}
+
+.success {
+	background-color: #3273dc;
+}
+
+.task-form {
+	margin-top: 1rem;
+}
+
+.form-error {
+	color: #f14668;
+	margin-top: -14px;
+    display: none;
+}
+
+.input-task {
+	max-width: 94%;
+}

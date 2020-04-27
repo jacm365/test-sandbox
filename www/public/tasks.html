@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Task List</title>
+        <link rel="stylesheet" type="text/css" href="../assets/css/bulma.min.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+    </head>
+    <body>
+        <section class="hero is-success is-fullheight">
+    <div class="notification message">
+      <p>Task deleted successfully.</p>
+    </div>
+            <div class="hero-head">
+                <div class="container">
+                    <h1 class="title">
+                        Task List
+                    </h1>
+                    <h2>
+                        In this application you can:
+                    </h2>
+                        <ul>
+                            <li>
+                                * Add new tasks with the form at the bottom of the page.
+                            </li>
+                            <li>
+                                * Mark tasks as finished clicking on the checkbox.
+                            </li>
+                            <li>
+                                * Edit tasks clicking on the text ENTER to save ESC to exit.
+                            </li>
+                            <li>
+                                * Delete tasks clicking on the x icon.
+                            </li>
+                </div>
+            </div>
+            <div class="hero-body">
+                <div class="container">
+                    <div class="task-list">
+                    </div>
+                    <div class="has-background-info notification task-form">
+                        <div class="field has-addons">
+                            <input type="text" maxlength="250" class="input is-medium" id="task-text"/>
+                        </div>
+                        <span class="form-error">This field is requiered</span>
+                        <p class="control">
+                            <button class="button task-button is-white">Add Task</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script type="text/javascript" src="../assets/js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+</html>

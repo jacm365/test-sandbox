@@ -54,6 +54,8 @@
                             <ul>
                                 <li><a href="http://localhost/phpinfo.php">phpinfo()</a></li>
                                 <li><a href="http://localhost/test_db.php">Test DB Connection</a></li>
+                                <li><a href="/public/tasks.html">Tasks Test Site</a></li>
+                                <li><a href="/public/api_endpoints.html">Task API endpoints Docs</a></li>
                             </ul>
                         </div>
                     </div>
